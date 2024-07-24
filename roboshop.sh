@@ -3,7 +3,7 @@
 AMI=ami-0b4f379183e5706b9  #this keeps on changing
 SG_ID=sg-0aebfb0aa8bf6ca71 #replace with your SG ID
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "web")
-ZONE_ID=Z08547751ZD15S51W9K8E # replace your zone ID
+ZONE_ID=Z05903102ZYPZ99JMV60Y # replace your zone ID
 DOMAIN_NAME="dileepjdevops.cloud"
 
 for i in "${INSTANCES[@]}"; do
